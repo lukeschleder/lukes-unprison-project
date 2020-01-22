@@ -1,0 +1,86 @@
+.venueHeader {
+    margin-left: 50px;
+}
+
+.venueMainWindow {
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #75859698;
+    display: grid;
+    height: 600px;
+    grid-template-rows: 18% 8% 63% 2% 6% 2%;
+    grid-template-columns: 5% 10% 10% 10% 10% 10% 10% 10% 10% 10% 5%;
+    grid-template-areas: 
+
+
+    ". contactName contactName contactName primaryPhone primaryPhone primaryPhone primaryEmail primaryEmail primaryEmail ."
+    ". general general contacts contacts event event . . . ."
+    ". tab tab tab tab tab tab tab tab tab ."
+    ". . . . . . . . . . ."
+    ". . . . . . button2 button2 button1 button1 ."
+    ". . . . . . . . . . ."
+
+    ;
+}
+
+.venueTabWindow {
+    background-color: white;
+    grid-area: tab;
+    overflow-y: auto;
+}
+
+.primaryName {
+    grid-area: contactName;
+}
+
+.primaryPhone {
+    grid-area: primaryPhone;
+}
+
+.primaryEmail {
+    grid-area: primaryEmail;
+}
+
+.venueEventsTab {
+    grid-area: event;
+    /* border: 2px solid black; */
+}
+
+.venueGeneralTab {
+    grid-area: general;
+    /* border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black; */
+}
+
+.venueContactsTab {
+    grid-area: contacts;
+}
+
+#textfield {
+    height: 10px;
+}
+
+#material-ui {
+    margin-left: 10px;
+    margin-bottom:5px;
+    
+}
+
+#general-header {
+    margin-left: 5px;
+}
+
+#material-ui:hover {
+    background-color: #82caff20;
+
+}
+
+.tabButtonPosition1 {
+grid-area: button1;
+
+}
+
+.tabButtonPosition2 {
+    grid-area: button2;
+    }

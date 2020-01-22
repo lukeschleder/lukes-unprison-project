@@ -1,0 +1,91 @@
+.header {
+    margin-left: 50px;
+}
+
+.mainWindow {
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #75859698;
+    display: grid;
+    height: 600px;
+    grid-template-rows: 18% 8% 63% 2% 6% 2%;
+    grid-template-columns: 5% 10% 10% 10% 10% 10% 10% 10% 10% 10% 5%;
+    grid-template-areas: 
+    
+    ". main main main main main main main main main ."
+    ". general general travel travel financials financials programs programs . ."
+    ". tab tab tab tab tab tab tab tab tab ."
+    ". . . . . . . . . . ."
+    ". . . . . . button2 button2 button1 button1 ."
+    ". . . . . . . . . . ."
+    ;
+}
+
+.tabWindow {
+    background-color: white;
+    grid-area: tab;
+    overflow-y: auto;
+}
+
+.mainInfo {
+    grid-area: main;
+}
+
+.generalTab {
+    grid-area: general;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.travelTab {
+    grid-area: travel;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.financialsTab {
+    grid-area: financials;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.programsTab {
+    grid-area: programs;
+    border: 2px solid black;
+}
+
+.nobullet {
+        list-style-type: none;
+}
+
+.tabButtonPosition {
+    position: sticky;
+    top: 500;
+    float: right;
+    margin-right: 2%;
+    
+}
+
+.h1-main {
+    border-bottom: solid 2px #EA7600;
+    padding-bottom: 4px;
+    width: 15vw;
+}
+
+.h1-other {
+    border-bottom: solid 2px #EA7600;
+    padding-bottom: 4px;
+    width: 35vw;
+}
+
+.tabButtonPosition1 {
+    grid-area: button1;
+    
+    }
+    
+    .tabButtonPosition2 {
+        grid-area: button2;
+        }

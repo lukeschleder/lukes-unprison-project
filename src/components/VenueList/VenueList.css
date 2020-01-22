@@ -1,0 +1,26 @@
+/* #smallInput1 {
+   height: 10px;
+}
+
+#smallInput2 {
+    height: 10px;
+ }
+
+ #selectVenues {
+    height: 10px;
+ } */
+
+ .venueButtons {
+    height: 40px;
+ }
+
+#TableRow:nth-child(odd) {
+   background-color: #469AEF20;
+}
+
+#inputlabel {
+   display: inline-flex;
+   margin-bottom: 10px;
+}
+
+
