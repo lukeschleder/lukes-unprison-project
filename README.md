@@ -56,6 +56,9 @@ If you would like to name your database something else, you will need to change 
 - Moment
 - Material UI
 - CSS
+- HTML
+- Javascript
+- Node.js
 
 ## Authors
 - Chris Ferber
