@@ -7,8 +7,8 @@ import { TextField, Button, Paper } from '@material-ui/core';
 
 class LoginPage extends Component {
   state = {
-    username: '',
-    password: '',
+    username: 'admin',
+    password: 'password',
   };
 
   login = (event) => {
